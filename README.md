@@ -1,80 +1,60 @@
-🎬 Movie Recommender System (Streamlit App)
-📌 Overview
+🎬 Movie Recommender System
+  About the Project
 
-This is an interactive Movie Recommender System web app built using Streamlit and Machine Learning.
-It recommends similar movies based on user selection using content-based filtering and cosine similarity.
+This project is a simple content-based movie recommender system built using Python. It suggests movies that are similar to a selected movie based on their features.
 
-🚀 Live App Features
-🎯 Select a movie from dropdown
-🎬 Get top similar movie recommendations instantly
-⚡ Fast and lightweight Streamlit UI
-🧠 ML-based similarity engine
-📊 Precomputed similarity matrix for efficiency
-🛠️ Tech Stack
-Python 🐍
-Streamlit 🎈
-Pandas
-NumPy
-Scikit-learn
-Pickle
-📁 Project Structure
+A Streamlit web app is used to make the system interactive and easy to use.
 
+-Features
+. Select a movie and get similar recommendations
+. Fast recommendations using precomputed similarity matrix
+. Simple and interactive Streamlit interface
+. Works offline after setup
+
+-Technologies Used
+. Python
+. Streamlit
+. Pandas
+. NumPy
+. Scikit-learn
+. Pickle
+
+📁 Project Files
 movie-recommender-system/
 │
-├── app.py                      # Streamlit application
-├── movie-recommender-system.ipynb  # Model building notebook
-├── movies_dict.pkl             # Processed movie dataset
-├── similarity.pkl              # Cosine similarity matrix
-├── README.md                   # Project documentation
+├── app.py                     # Streamlit web app
+├── movies_dict.pkl            # Processed movie dataset
+├── similarity.pkl             # Similarity matrix
+├── movie-recommender-system.ipynb  # Model development notebook
+└── README.md
 
-⚙️ How It Works
-Movie dataset is cleaned and preprocessed
-Important features are combined into a "tags" column
-Text vectorization is applied
-Cosine similarity is calculated between all movies
-Streamlit app uses this matrix to recommend similar movies
-▶️ Installation & Setup
-1️⃣ Clone the repository
+- How It Works
+. Movie data is cleaned and processed
+. Important features are combined into text representation
+. Vectorization is applied on movie features
+. Cosine similarity is calculated between movies
+. Based on similarity, top matching movies are recommended
+
+- How to Run the Project
+1. Clone the repository
 git clone https://github.com/your-username/movie-recommender-system.git
 cd movie-recommender-system
-2️⃣ Install dependencies
-pip install streamlit numpy pandas scikit-learn
-3️⃣ Run the Streamlit app
+
+2. Install required libraries
+pip install streamlit pandas numpy scikit-learn
+
+3. Run the Streamlit app
 streamlit run app.py
-🎬 How to Use
-Open the app in browser (usually http://localhost:8501)
-Select a movie from dropdown menu
-Click Recommend
-Get top similar movies instantly 🎉
-📊 Example Output
 
-Input Movie:
-👉 Avatar
+- Example
 
-Recommended Movies:
+If you select:
+Movie: Avatar
+
+The system may recommend:
 
 Avatar 2
-John Carter
-Guardians of the Galaxy
-Interstellar
-The Avengers
-🧠 Machine Learning Concept Used
-
-This project uses:
-
-Content-Based Filtering
-Cosine Similarity
-TF-IDF / Feature Engineering (tags-based system)
-👩‍💻 Author
-
-Khushi Kumari
-B.Sc Computer Science, IIT Patna
-
-🚀 Future Improvements
-Add poster images using TMDB API 🎥
-Deploy on Streamlit Cloud ☁️
-Add user login system 🔐
-Improve recommendation using deep learning 🤖
-⭐ If you like this project
-
-Give it a ⭐ on GitHub and feel free to fork it!
+. John Carter
+. Interstellar
+. Guardians of the Galaxy
+. The Avengers
