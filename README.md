@@ -8,17 +8,25 @@ A Streamlit web app is used to make the system interactive and easy to use.
 -Features
 
 . Select a movie and get similar recommendations
+
 . Fast recommendations using precomputed similarity matrix
+
 . Simple and interactive Streamlit interface
+
 . Works offline after setup
 
 -Technologies Used
 
 .Python
+
 . Streamlit
+
 . Pandas
+
 . NumPy
+
 . Scikit-learn
+
 . Pickle
 
 📁 Project Files
@@ -31,10 +39,15 @@ movie-recommender-system/
 └── README.md
 
 - How It Works
+
 . Movie data is cleaned and processed
+
 . Important features are combined into text representation
+
 . Vectorization is applied on movie features
+
 . Cosine similarity is calculated between movies
+
 . Based on similarity, top matching movies are recommended
 
 - How to Run the Project
