@@ -6,13 +6,15 @@ This project is a simple content-based movie recommender system built using Pyth
 A Streamlit web app is used to make the system interactive and easy to use.
 
 -Features
+
 . Select a movie and get similar recommendations
 . Fast recommendations using precomputed similarity matrix
 . Simple and interactive Streamlit interface
 . Works offline after setup
 
 -Technologies Used
-. Python
+
+.Python
 . Streamlit
 . Pandas
 . NumPy
