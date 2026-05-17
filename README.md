@@ -17,7 +17,7 @@ A Streamlit web app is used to make the system interactive and easy to use.
 
 -Technologies Used
 
-.Python
+. Python
 
 . Streamlit
 
@@ -30,12 +30,18 @@ A Streamlit web app is used to make the system interactive and easy to use.
 . Pickle
 
 📁 Project Files
+
 movie-recommender-system/
 │
+
 ├── app.py                     # Streamlit web app
+
 ├── movies_dict.pkl            # Processed movie dataset
+
 ├── similarity.pkl             # Similarity matrix
+
 ├── movie-recommender-system.ipynb  # Model development notebook
+
 └── README.md
 
 - How It Works
